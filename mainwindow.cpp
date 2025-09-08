@@ -260,9 +260,24 @@ MainWindow::MainWindow(QWidget *parent)
     centralLayout->setStretch(1, 2);  // Stretch the image layout
     centralLayout->setStretch(2, 1);  // Stretch the right panel container
 
+    // --- Logo at top-left ---
+    QLabel *logoLabel = new QLabel(this);
+    QPixmap logoPixmap(":/images/harsco-logo.jpg");
+    logoLabel->setPixmap(logoPixmap.scaled(60, 60, Qt::KeepAspectRatio, Qt::SmoothTransformation));
+
+    logoLabel->setAlignment(Qt::AlignLeft | Qt::AlignVCenter);
+
+    // --- Top bar with logo (left) + title (center) ---
+    QHBoxLayout *topBarLayout = new QHBoxLayout();
+    topBarLayout->addWidget(logoLabel);
+    topBarLayout->addStretch();
+    topBarLayout->addWidget(titleLabel);
+    topBarLayout->addStretch();
+
     QVBoxLayout *mainLayout = new QVBoxLayout();
-    mainLayout->addWidget(titleLabel); // Add title at the top
+    mainLayout->addLayout(topBarLayout);  // Add top bar instead of just title
     mainLayout->addLayout(centralLayout);
+
 
     QWidget *container = new QWidget();
     container->setLayout(mainLayout);
