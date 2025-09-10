@@ -1,0 +1,11 @@
+git clone https://github.com/<you>/AI_ImageSelector
+cd AI_ImageSelector
+./scripts/install_launcher.sh     # installs the app into your launcher
+# ...later...
+./scripts/uninstall_launcher.sh   # removes the launcher entry & icons
+
+For Developers --
+# Build AppImage locally from src/ (requires a working Qt toolchain)
+./scripts/build_appimage.sh
+# Result goes to: appimage/AI_ImageSelector-<date>-<arch>.AppImage
+

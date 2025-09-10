@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/">
+    <file>../assets/AI_ImageSelector.png</file>
+    <file>../assets/harsco-logo.jpg</file>
+  </qresource>
+</RCC>
+

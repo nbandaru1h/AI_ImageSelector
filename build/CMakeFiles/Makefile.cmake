@@ -94,7 +94,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/nbandaru1/ai/ann/projects/applications/AI_ImageSelector/CMakeLists.txt"
   "CMakeFiles/3.31.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.0/CMakeSystem.cmake"
-  "/home/nbandaru1/ai/ann/projects/applications/AI_ImageSelector/resources.qrc"
+  "/home/nbandaru1/ai/ann/projects/applications/AI_ImageSelector/src/CMakeLists.txt"
+  "/home/nbandaru1/ai/ann/projects/applications/AI_ImageSelector/src/resources.qrc"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake"
@@ -147,13 +148,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.31.0/CMakeSystem.cmake"
   "CMakeFiles/3.31.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.0/CMakeCXXCompiler.cmake"
-  "CMakeFiles/AI_ImageSelector_autogen.dir/AutogenInfo.json"
-  "CMakeFiles/AI_ImageSelector_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/CMakeFiles/AI_ImageSelector_autogen.dir/AutogenInfo.json"
+  "src/CMakeFiles/AI_ImageSelector_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json"
+  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/AI_ImageSelector.dir/DependInfo.cmake"
-  "CMakeFiles/AI_ImageSelector_autogen.dir/DependInfo.cmake"
+  "src/CMakeFiles/AI_ImageSelector.dir/DependInfo.cmake"
+  "src/CMakeFiles/AI_ImageSelector_autogen.dir/DependInfo.cmake"
   )

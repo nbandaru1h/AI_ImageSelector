@@ -171,7 +171,7 @@ AI_ImageSelector: cmake_check_build_system
 
 # fast build rule for target.
 AI_ImageSelector/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AI_ImageSelector.dir/build.make CMakeFiles/AI_ImageSelector.dir/build
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/AI_ImageSelector.dir/build.make src/CMakeFiles/AI_ImageSelector.dir/build
 .PHONY : AI_ImageSelector/fast
 
 #=============================================================================
@@ -184,104 +184,8 @@ AI_ImageSelector_autogen: cmake_check_build_system
 
 # fast build rule for target.
 AI_ImageSelector_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AI_ImageSelector_autogen.dir/build.make CMakeFiles/AI_ImageSelector_autogen.dir/build
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/AI_ImageSelector_autogen.dir/build.make src/CMakeFiles/AI_ImageSelector_autogen.dir/build
 .PHONY : AI_ImageSelector_autogen/fast
-
-AI_ImageSelector_autogen/EWIEGA46WW/qrc_resources.o: AI_ImageSelector_autogen/EWIEGA46WW/qrc_resources.cpp.o
-.PHONY : AI_ImageSelector_autogen/EWIEGA46WW/qrc_resources.o
-
-# target to build an object file
-AI_ImageSelector_autogen/EWIEGA46WW/qrc_resources.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AI_ImageSelector.dir/build.make CMakeFiles/AI_ImageSelector.dir/AI_ImageSelector_autogen/EWIEGA46WW/qrc_resources.cpp.o
-.PHONY : AI_ImageSelector_autogen/EWIEGA46WW/qrc_resources.cpp.o
-
-AI_ImageSelector_autogen/EWIEGA46WW/qrc_resources.i: AI_ImageSelector_autogen/EWIEGA46WW/qrc_resources.cpp.i
-.PHONY : AI_ImageSelector_autogen/EWIEGA46WW/qrc_resources.i
-
-# target to preprocess a source file
-AI_ImageSelector_autogen/EWIEGA46WW/qrc_resources.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AI_ImageSelector.dir/build.make CMakeFiles/AI_ImageSelector.dir/AI_ImageSelector_autogen/EWIEGA46WW/qrc_resources.cpp.i
-.PHONY : AI_ImageSelector_autogen/EWIEGA46WW/qrc_resources.cpp.i
-
-AI_ImageSelector_autogen/EWIEGA46WW/qrc_resources.s: AI_ImageSelector_autogen/EWIEGA46WW/qrc_resources.cpp.s
-.PHONY : AI_ImageSelector_autogen/EWIEGA46WW/qrc_resources.s
-
-# target to generate assembly for a file
-AI_ImageSelector_autogen/EWIEGA46WW/qrc_resources.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AI_ImageSelector.dir/build.make CMakeFiles/AI_ImageSelector.dir/AI_ImageSelector_autogen/EWIEGA46WW/qrc_resources.cpp.s
-.PHONY : AI_ImageSelector_autogen/EWIEGA46WW/qrc_resources.cpp.s
-
-AI_ImageSelector_autogen/mocs_compilation.o: AI_ImageSelector_autogen/mocs_compilation.cpp.o
-.PHONY : AI_ImageSelector_autogen/mocs_compilation.o
-
-# target to build an object file
-AI_ImageSelector_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AI_ImageSelector.dir/build.make CMakeFiles/AI_ImageSelector.dir/AI_ImageSelector_autogen/mocs_compilation.cpp.o
-.PHONY : AI_ImageSelector_autogen/mocs_compilation.cpp.o
-
-AI_ImageSelector_autogen/mocs_compilation.i: AI_ImageSelector_autogen/mocs_compilation.cpp.i
-.PHONY : AI_ImageSelector_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-AI_ImageSelector_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AI_ImageSelector.dir/build.make CMakeFiles/AI_ImageSelector.dir/AI_ImageSelector_autogen/mocs_compilation.cpp.i
-.PHONY : AI_ImageSelector_autogen/mocs_compilation.cpp.i
-
-AI_ImageSelector_autogen/mocs_compilation.s: AI_ImageSelector_autogen/mocs_compilation.cpp.s
-.PHONY : AI_ImageSelector_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-AI_ImageSelector_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AI_ImageSelector.dir/build.make CMakeFiles/AI_ImageSelector.dir/AI_ImageSelector_autogen/mocs_compilation.cpp.s
-.PHONY : AI_ImageSelector_autogen/mocs_compilation.cpp.s
-
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AI_ImageSelector.dir/build.make CMakeFiles/AI_ImageSelector.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AI_ImageSelector.dir/build.make CMakeFiles/AI_ImageSelector.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AI_ImageSelector.dir/build.make CMakeFiles/AI_ImageSelector.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-mainwindow.o: mainwindow.cpp.o
-.PHONY : mainwindow.o
-
-# target to build an object file
-mainwindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AI_ImageSelector.dir/build.make CMakeFiles/AI_ImageSelector.dir/mainwindow.cpp.o
-.PHONY : mainwindow.cpp.o
-
-mainwindow.i: mainwindow.cpp.i
-.PHONY : mainwindow.i
-
-# target to preprocess a source file
-mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AI_ImageSelector.dir/build.make CMakeFiles/AI_ImageSelector.dir/mainwindow.cpp.i
-.PHONY : mainwindow.cpp.i
-
-mainwindow.s: mainwindow.cpp.s
-.PHONY : mainwindow.s
-
-# target to generate assembly for a file
-mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/AI_ImageSelector.dir/build.make CMakeFiles/AI_ImageSelector.dir/mainwindow.cpp.s
-.PHONY : mainwindow.cpp.s
 
 # Help Target
 help:
@@ -297,18 +201,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... AI_ImageSelector_autogen"
 	@echo "... AI_ImageSelector"
-	@echo "... AI_ImageSelector_autogen/EWIEGA46WW/qrc_resources.o"
-	@echo "... AI_ImageSelector_autogen/EWIEGA46WW/qrc_resources.i"
-	@echo "... AI_ImageSelector_autogen/EWIEGA46WW/qrc_resources.s"
-	@echo "... AI_ImageSelector_autogen/mocs_compilation.o"
-	@echo "... AI_ImageSelector_autogen/mocs_compilation.i"
-	@echo "... AI_ImageSelector_autogen/mocs_compilation.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... mainwindow.o"
-	@echo "... mainwindow.i"
-	@echo "... mainwindow.s"
 .PHONY : help
 
 
