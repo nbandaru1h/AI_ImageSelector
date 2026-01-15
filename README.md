@@ -1,21 +1,28 @@
-# AI_ImageSelector
-A Qt application for efficient image management and annotation workflows, designed to simplify the process for data annotators.
+# AI_ImageSuite
+A Qt application for efficient image management and annotation workflows, designed to simplify the process for data annotators and AI Engineers.
 
 ---
 
 ## Features & Workflow
-1. **Choose** an image directory on startup.
-2. **Navigate** images using left/right arrow keys or on-screen buttons.
-3. **Add** an image (click **Add** or press **A**) → image path appears in the right-side panel.
-4. **Remove** an image path if added by mistake (select and click **Remove**).
-5. **Save** the list of selected file paths (e.g., `move_to_train.txt`, `move_to_val.txt`).
-6. **Perform actions** (only after saving a list):
+
+Navigation
+1. **Choose** an image directory on startup or **Load Image Directory** using the button at the top in the toolbar.
+2. **Navigate** images using left/right arrow keys or on-screen buttons below image. Navigate to previous image directory or next image directory using **prev dir** or **next dir** with ease.
+
+Image Categorization
+1. **Configure Image Tagging** - use this button to set up key-category pairs where upon the press of the key, current image is added to the respective category's list. 
+2. **Add** an image (click **Add** or press **A**) → image path appears in the right-side panel.
+3. **Remove** an image path if added by mistake (select and click **Remove**). Multiple selections allowed.
+4. **Save** the list of selected file paths (all lists are saved to selected directory and named after their categories).
+
+Image Filtering
+1. **Perform actions** (only after saving a list):
    - **Delete** → moves selected images to a `deleted_images/` folder in the parent directory.
    - **Move** → prompts the user to select a destination folder (e.g., `Train/`).
    - **Copy** → same as Move but copies instead of moving.
-7. **YOLO Integration**:
-   - **Choose Names File** → select a `.names` file.
-   - **Toggle Bounding Boxes** → view/hide YOLO annotations (class + confidence).
+2. **YOLO Integration**:
+   - **Load Names** → select a `.names` file.
+   - **YOLO** → view/hide YOLO annotations (class + confidence).
 
 ---
 
@@ -23,8 +30,8 @@ A Qt application for efficient image management and annotation workflows, design
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/nbandaru1h/AI_ImageSelector.git
-cd AI_ImageSelector
+git clone https://github.com/nbandaru1h/AI_ImageSuite.git
+cd AI_ImageSuite
 
 ```
 # INSTALL (LINUX) with APP IMAGE
@@ -33,7 +40,7 @@ cd AI_ImageSelector
 ./scripts/install_launcher.sh
 
 ```
-(Search for the app "AI Image Selector" from your launch menu)
+(Search for the app "AI Image Suite" from your launch menu)
 
 # UNINSTALL (LINUX)
 
@@ -44,12 +51,12 @@ cd AI_ImageSelector
 # BUILD FROM SOURCE
 
 ```bash
-git clone https://github.com/nbandaru1h/AI_ImageSelector.git
-cd AI_ImageSelector
+git clone https://github.com/nbandaru1h/AI_ImageSuite.git
+cd AI_ImageSuite
 rm -rf build && mkdir build && cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 make -j$(nproc)
-./AI_ImageSelector
+./AI_ImageSuite
 ```
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
